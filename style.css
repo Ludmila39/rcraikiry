@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'PF Handbook Pro Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('PF Handbook Pro Regular'), url('/fonts/PFHandbookProRegular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'PF Handbook Pro Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('PF Handbook Pro Italic'), url('/fonts/PFHandbookProItalic.woff') format('woff');
+}
+        
+    
+@font-face {
+    font-family: 'PF Handbook Pro Extra Thin';
+    font-style: normal;
+    font-weight: normal;
+    src: local('PF Handbook Pro Extra Thin'), url('/fonts/PFHandbookProExtraThin.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'PF Handbook Pro Thin';
+    font-style: normal;
+    font-weight: normal;
+    src: local('PF Handbook Pro Thin'), url('/fonts/PFHandbookProThin.woff') format('woff');
+}
+@font-face {
+    font-family: 'PF Handbook Pro Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('PF Handbook Pro Bold'), url('/fonts/PFHandbookProBold.woff') format('woff');
+}
+@font-face {
+    font-family: 'PF Handbook Pro Medium';
+    font-style: normal;
+    font-weight: 500;
+    src: local('PF Handbook Pro Medium'), url('/fonts/PFHandbookPro-Medium.woff') format('woff');
+}
+            
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*.body {
+    font-family: 'PF Handbook Pro Medium', sans-serif;
+
+}*/
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.header .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 16px;
+    background-color: #ffffff
+    ;
+}
+.logo {
+    cursor: pointer;
+}
+.logotype {
+    color: rgb(74, 151, 214);
+    font-weight: normal;
+    font-size: 32px;
+}
+.phone {
+    text-decoration: none;
+    color: rgb(74, 151, 214);
+    font-size: 18px;
+}
+.nothing {
+    background-color: greenyellow;
+    text-align: center;
+    font-size: 24px;
+    
+}
+.schedule {
+    font-weight: bold;
+    font-size: 24px;
+}

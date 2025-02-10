@@ -77,10 +77,44 @@
 .nothing {
     background-color: greenyellow;
     text-align: center;
-    font-size: 24px;
+    font-size: 42px;
     
 }
-.schedule {
+.nothing-word {
+    height: 50px;
+}
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightblue;
+    padding: 50px;
+    
+}
+.content img {
+    width: 500px;
+    height: 320px;
+    
+}
+h1 {
+    font-size: 64px;
+    font-weight: 900;
+    color: #ffffff;
+
+}
+span {
+    -webkit-text-stroke: 1px #ffffff;
+    -webkit-text-fill-color: transparent;
+}
+.text-content p {
+    color: #ffffff;
+}
+.entry p {
+    color: rgb(41, 10, 240);
+    border: 3px solid rgb(40, 10, 235);
     font-weight: bold;
     font-size: 24px;
+}
+.entry {
+    padding-top: 20px;
 }
